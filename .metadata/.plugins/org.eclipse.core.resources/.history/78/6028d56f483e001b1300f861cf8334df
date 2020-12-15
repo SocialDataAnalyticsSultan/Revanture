@@ -1,0 +1,14 @@
+package eg1;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		int x = 10;
+		System.out.println("x = " + x);
+		
+		float z = 123.55f;
+		System.out.println("z = " + z);
+
+	}
+
+}
