@@ -4,4 +4,7 @@
     <fullyQualifiedTypeName name="eg2.AnotherPack"/>
     <fullyQualifiedTypeName name="eg2.Outer.InnerPublic"/>
     <fullyQualifiedTypeName name="eg2.Outer.helloInnerPublicStatic"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
