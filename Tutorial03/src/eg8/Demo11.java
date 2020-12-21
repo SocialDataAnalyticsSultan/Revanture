@@ -14,10 +14,9 @@ public class Demo11 {
 		System.out.println(sb);
 		StringBuilder sb2 = new StringBuilder();
 		for(int index = 0; index<ar.length; index++) {
-			sb.append(ar[index].substring(0, ar[index].length())).append(ar[index])
-			
+			sb2.append(ar[index].substring(0, ar[index].length()-1)).append(Character.toUpperCase(ar[index].charAt(ar[index].length()-1))).append(" ");
 		}
-		
+		System.out.println(sb2);
 
 	}
 

@@ -12,6 +12,7 @@ public class Demo1 {
 		System.out.println("ar[0] " + ar[0]); 
 		System.out.println("Size of array = " + ar.length);
 		
+		
 		int ar1[] = new int[10];
 		System.out.println("Printing contents of ar1");
 		for(int x:ar1) {
