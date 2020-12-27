@@ -1,0 +1,21 @@
+department_id,department_name,country,state,city,manager_id
+101,Engineering,United States,California,San Diego,1808
+102,Marketing,United States,Kentucky,Lexington,1701
+103,Business Development,United States,Virginia,Arlington,1263
+104,Support,United States,District of Columbia,Washington,1637
+105,Sales,United States,Florida,Miami,1108
+106,Research and Development,United States,Ohio,Dayton,1187
+107,Sales,United States,Indiana,Indianapolis,1333
+108,Training,United States,Colorado,Littleton,1855
+109,Sales,United States,Montana,Billings,1149
+110,Services,United States,Alabama,Birmingham,1677
+111,Business Development,United States,Louisiana,Baton Rouge,1040
+112,Marketing,United States,Nebraska,Omaha,1344
+113,Research and Development,United States,Virginia,Alexandria,1670
+114,Services,United States,Michigan,Detroit,1398
+115,Sales,United States,Virginia,Arlington,1263
+116,Sales,United States,New York,Syracuse,1366
+117,Training,United States,Pennsylvania,Philadelphia,1820
+118,Services,United States,New York,Albany,1507
+119,Sales,United States,Florida,Pensacola,1824
+120,Support,United States,Colorado,Aurora,1881

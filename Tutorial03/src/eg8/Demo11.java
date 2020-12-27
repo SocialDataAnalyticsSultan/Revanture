@@ -6,6 +6,8 @@ public class Demo11 {
 		String s = "Hello hi good evening how are you doing today?";
 		
 		StringBuilder sb = new StringBuilder();
+		String sden;
+		System.out.println(sden);
 		String ar[]= s.split(" ");
 		for (int index=0; index<ar.length; index++) {
 			sb.append(Character.toUpperCase(ar[index].charAt(0))).append(ar[index].substring(1)).append(" ");

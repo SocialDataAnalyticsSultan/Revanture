@@ -10,10 +10,15 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\sulta\eclipse-workspace\Week2&amp;abovee"/>
 			<item value="C:\Users\sulta\eclipse-workspace\Tutorial02_Corrected"/>
 			<item value="C:\Users\sulta\eclipse-workspace\Tutorial02"/>
 		</list>
 	</section>
 	<section name="NewWizardAction">
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
 	</section>
 </section>
