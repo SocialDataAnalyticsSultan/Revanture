@@ -1,0 +1,8 @@
+{TRACE} => {com.app.main.HelloLog4j} =>  Hello from trace		29-December-2020 Tuesday EST 21:26:54  
+{DEBUG} => {com.app.main.HelloLog4j} =>  Hello from debug		29-December-2020 Tuesday EST 21:26:54  
+{INFO} => {com.app.main.HelloLog4j} =>  Hello from info		29-December-2020 Tuesday EST 21:26:54  
+{WARN} => {com.app.main.HelloLog4j} =>  Hello from warn		29-December-2020 Tuesday EST 21:26:54  
+{ERROR} => {com.app.main.HelloLog4j} =>  Hello from error		29-December-2020 Tuesday EST 21:26:54  
+{FATAL} => {com.app.main.HelloLog4j} =>  Hello from fatal		29-December-2020 Tuesday EST 21:26:54  
+{INFO} => {com.app.service.HelloLog4jService} =>  Hello from Log Service helloLog()		29-December-2020 Tuesday EST 21:26:54  
+{INFO} => {com.app.service.HelloLog4jService} =>  Bye Bye from Log Service helloLog()		29-December-2020 Tuesday EST 21:26:54  

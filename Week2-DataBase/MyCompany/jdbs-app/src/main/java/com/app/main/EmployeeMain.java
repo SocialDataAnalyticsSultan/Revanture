@@ -15,7 +15,6 @@ public class EmployeeMain {
 		
 		EmployeeCrudDAO dao = new EmployeeCrudDAOImpl();
 		
-		@SuppressWarnings("deprecation")
 		Employee employee = new Employee("Sultan", "Anbar", "Female", "111-222-3333", "sanbar@com", 2001, new Date(1982,1,1), 
 				"Washington", "Norwood", "Massachusetts", "United States", 101);
 		
