@@ -1,0 +1,6 @@
+loan_id,loan_type,interest_rate
+100,Home,0.05
+101,Vehicle,0.05
+102,Personal,0.06
+103,Education,0.03
+104,Business,0.04

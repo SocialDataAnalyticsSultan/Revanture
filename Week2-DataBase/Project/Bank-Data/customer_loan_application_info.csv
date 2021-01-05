@@ -1,0 +1,7 @@
+loan_application_id,custemer_id,loan_id,date_of_application,status,loan_amount,duration_year,approving_employee_id,total_payment_amount,monthly_payment_amount
+4770-VCBW-5290,1063,100,5/30/2019,Accepted,150000,5,1043,191442.23,3190.7
+5945-PCXT-3720,1062,103,9/1/2019,Accepted,20000,4,1009,22510.18,468.96
+7189-ERLF-3271,1095,102,5/15/2020,Rejected,30000,5,1036,,
+6774-VHFK-7613,1100,102,10/10/2020,Accepted,50000,2,1029,56180,2340.83
+0205-LQAI-8239,1085,104,12/15/2020,Accepted,200000,4,1018,233971.71,4874.410625
+0933-QDGV-9044,1050,101,12/31/2020,Accepted,40000,2,1005,44100,1837.5
