@@ -1,4 +1,4 @@
-loan_application_id,custemer_id,loan_id,date_of_application,status,loan_amount,duration_year,approving_employee_id,total_payment_amount,monthly_payment_amount
+loan_application_id,customer_id,loan_id,date_of_application,status,loan_amount,duration_year,approving_employee_id,total_payment_amount,monthly_payment_amount
 4770-VCBW-5290,1063,100,5/30/2019,Accepted,150000,5,1043,191442.23,3190.7
 5945-PCXT-3720,1062,103,9/1/2019,Accepted,20000,4,1009,22510.18,468.96
 7189-ERLF-3271,1095,102,5/15/2020,Rejected,30000,5,1036,,

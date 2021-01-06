@@ -1,0 +1,11 @@
+INSERT INTO asya_bank.bank (branch_id,street,city,state,country,zipcode,manager_id) VALUES (100,'39 Dahle Drive','Boston','Massachusetts','United States','2405',1047);
+INSERT INTO asya_bank.bank (branch_id,street,city,state,country,zipcode,manager_id) VALUES (101,'25328 Ryan Trail','Brockton','Massachusetts','United States','1129',1040);
+INSERT INTO asya_bank.bank (branch_id,street,city,state,country,zipcode,manager_id) VALUES (102,'13 Namekagon Trail','Cambridge','Massachusetts','United States','2298',1041);
+INSERT INTO asya_bank.bank (branch_id,street,city,state,country,zipcode,manager_id) VALUES (103,'45894 Kensington Place','Lynn','Massachusetts','United States','2142',1026);
+INSERT INTO asya_bank.bank (branch_id,street,city,state,country,zipcode,manager_id) VALUES (104,'07 Algoma Pass','New Bedford','Massachusetts','United States','2208',1030);
+INSERT INTO asya_bank.bank (branch_id,street,city,state,country,zipcode,manager_id) VALUES (105,'1 Mariners Cove Lane','Newton','Massachusetts','United States','1905',1043);
+INSERT INTO asya_bank.bank (branch_id,street,city,state,country,zipcode,manager_id) VALUES (106,'6 Dixon Court','Springfield','Massachusetts','United States','2453',1038);
+INSERT INTO asya_bank.bank (branch_id,street,city,state,country,zipcode,manager_id) VALUES (107,'2 Eastwood Hill','Waltham','Massachusetts','United States','2405',1009);
+INSERT INTO asya_bank.bank (branch_id,street,city,state,country,zipcode,manager_id) VALUES (108,'991 Gerald Road','Watertown','Massachusetts','United States','2458',1012);
+INSERT INTO asya_bank.bank (branch_id,street,city,state,country,zipcode,manager_id) VALUES (109,'4 East Parkway','Woburn','Massachusetts','United States','1605',1005);
+INSERT INTO asya_bank.bank (branch_id,street,city,state,country,zipcode,manager_id) VALUES (110,'9796 Johnson Hill','Worcester','Massachusetts','United States','2458',1039);
