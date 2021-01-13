@@ -167,7 +167,7 @@ public class BankMain {
 										System.out.println("Address updated successfully...");
 									}
 									else {
-										throw new BankException("There is a problem in address update. Please try later....");
+										log.error("There is a problem in address update. Please try later....");
 									}
 								}catch (ClassNotFoundException | SQLException exception) {  //try
 									log.error(exception.getMessage());	
@@ -186,7 +186,7 @@ public class BankMain {
 										System.out.println("Phone Number updated successfully...");
 									}
 									else {
-										throw new BankException("There is a problem in phone number update. Please try later....");
+										log.error("There is a problem in phone number update. Please try later....");
 									}
 								}catch (ClassNotFoundException | SQLException exception) {  //try
 									log.error(exception.getMessage());	
@@ -205,7 +205,7 @@ public class BankMain {
 										System.out.println("Email updated successfully...");
 									}
 									else {
-										throw new BankException("There is a problem in email update. Please try later....");
+										log.error("There is a problem in email update. Please try later....");
 									}
 								}catch (ClassNotFoundException | SQLException exception) {  //try
 									log.error(exception.getMessage());	
@@ -224,7 +224,7 @@ public class BankMain {
 										System.out.println("Password updated successfully...");
 									}
 									else {
-										throw new BankException("There is a problem in password update. Please try later....");
+										log.error("There is a problem in password update. Please try later....");
 									}
 								}catch (ClassNotFoundException | SQLException exception) {  //try
 									log.error(exception.getMessage());	
@@ -244,7 +244,7 @@ public class BankMain {
 										System.out.println("Deposit made successfully...");
 									}
 									else {
-										throw new BankException("There is a problem in deposit. Please try later....");
+										log.error("There is a problem in deposit. Please try later....");
 									}
 								}catch (ClassNotFoundException | SQLException exception) {  //try
 									log.error(exception.getMessage());	
@@ -264,7 +264,7 @@ public class BankMain {
 										System.out.println("Withdraw made successfully...");
 									}
 									else {
-										throw new BankException("There is a problem in withdraw. Please try later....");
+										log.error("There is a problem in withdraw. Please try later....");
 									}
 								}catch (ClassNotFoundException | SQLException exception) {  //try
 									log.error(exception.getMessage());	
@@ -287,7 +287,7 @@ public class BankMain {
 										System.out.println("Transaction made successfully...");
 									}
 									else {
-										throw new BankException("There is a problem in tracsaction. Please try later....");
+										log.error("There is a problem in tracsaction. Please try later....");
 									}
 								}catch (ClassNotFoundException | SQLException exception) {  //try
 									log.error(exception.getMessage());	
@@ -321,7 +321,7 @@ public class BankMain {
 										System.out.println("Loan application is successful...");
 									}
 									else {
-										throw new BankException("There is a problem in loan application. Please try later....");
+										log.error("There is a problem in loan application. Please try later....");
 									}
 								}catch (ClassNotFoundException | SQLException exception) {  //try
 									log.error(exception.getMessage());	
@@ -341,7 +341,7 @@ public class BankMain {
 										System.out.println("Loan payment made successfully...");
 									}
 									else {
-										throw new BankException("There is a problem in loan payment. Please try later....");
+										log.error("There is a problem in loan payment. Please try later....");
 									}
 									
 								}catch (ClassNotFoundException | SQLException exception) {  //try

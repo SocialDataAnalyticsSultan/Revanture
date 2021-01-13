@@ -538,7 +538,7 @@ public class CustomerDAOImpl implements CustomerDAO{
 								}
 								
 							}else {
-								throw new BankException("There is no accout with an account number " + transferAccountNumber);
+								log.error("There is no accout with an account number " + transferAccountNumber);
 							}
 							
 						}
