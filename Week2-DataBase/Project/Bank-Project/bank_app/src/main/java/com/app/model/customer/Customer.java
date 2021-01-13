@@ -86,7 +86,7 @@ public class Customer extends Person{
 
 	@Override
 	public String toString() {
-		return "Customer [toString()=" + super.toString() + ", customerId=" + customerId + ", occupation=" + occupation
+		return "Customer [" + super.toString() + ", customerId=" + customerId + ", occupation=" + occupation
 				+ ", yearlyIncome=" + yearlyIncome + ", creditScore=" + creditScore + ", userName=" + userName
 				+ ", password=" + password + "]";
 	}

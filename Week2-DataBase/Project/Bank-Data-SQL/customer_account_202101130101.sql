@@ -1,5 +1,3 @@
-INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1000,'Checking','8490-2574-5953-1874','2019-11-03',50849,101,1028);
-INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1001,'Checking','2365-7802-0719-8103','2019-10-30',69719,100,1047);
 INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1002,'Saving','2473-5265-2372-2141','2020-04-23',77323,100,1049);
 INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1003,'Saving','6382-2483-4441-6434','2019-02-23',118334,104,1053);
 INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1004,'Checking','3942-0324-5207-4232','2020-06-30',41651,101,1019);
@@ -61,7 +59,6 @@ INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,
 INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1060,'Checking','1242-6396-2049-8768','2019-11-01',40200,103,1031);
 INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1061,'Checking','7985-4512-5682-9661','2020-12-11',40573,107,1000);
 INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1062,'Checking','6281-8146-5330-9378','2019-04-21',97326,107,1009);
-INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1063,'Checking','8651-0521-9485-4032','2019-07-25',234716,105,1024);
 INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1064,'Checking','3425-1735-2144-3498','2020-05-15',120957,106,1042);
 INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1065,'Checking','8271-5356-9207-0588','2020-08-07',96231,100,1045);
 INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1066,'Saving','1159-0187-5498-0294','2020-02-04',100285,110,1034);
@@ -97,13 +94,17 @@ INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,
 INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1096,'Saving','7267-8745-1205-3663','2019-05-08',147110,106,1052);
 INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1097,'Checking','3953-2804-5241-1070','2020-08-08',105276,106,1052);
 INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1098,'Checking','2415-6814-9978-0920','2019-08-29',53277,110,1036);
+INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1000,'Checking','8490-2574-5953-1874','2019-11-03',50149,101,1028);
 INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1099,'Checking','1468-0353-1917-9994','2020-04-04',110260,107,1002);
 INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1100,'Checking','1319-1852-9283-5566','2019-02-23',93374,108,1029);
 INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1101,'Checking','3416-2441-5401-2280','2019-08-27',60191,108,1012);
 INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1102,'Checking','7060-6579-8928-8809','2019-05-06',115250,105,1024);
 INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1103,'Checking','1186-9624-5544-8116','2019-06-22',123986,102,1013);
-INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1104,'Saving','5221-0435-1264-6545','2019-10-01',75155,100,1045);
 INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1105,'Checking','7241-2012-1763-9850','2019-08-11',121965,105,1024);
 INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1106,'Checking','0007-5016-7194-9490','2020-09-16',22186,100,1045);
 INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1107,'Checking','7873-4778-7752-4045','2019-11-26',76562,100,1045);
-INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1108,'Checking','0038-1901-3097-0590','2019-06-15',144641,110,1032);
+INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1108,'Checking','0038-1901-3097-0590','2019-06-15',144691,110,1032);
+INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1104,'Saving','5221-0435-1264-6545','2019-10-01',75455,100,1045);
+INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1063,'Checking','8651-0521-9485-4032','2019-07-25',231525,105,1024);
+INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1001,'Checking','2365-7802-0719-8103','2019-10-30',70719,100,1047);
+INSERT INTO asya_bank.customer_account (customer_id,account_type,account_number,open_date,balance,branch_id,approving_employee_id) VALUES (1109,'Saving','1329-5576-4068','2021-01-13',1000,100,1049);

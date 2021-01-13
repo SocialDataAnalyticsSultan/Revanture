@@ -1,3 +1,17 @@
+-- asya_bank.loan definition
+
+-- Drop table
+
+-- DROP TABLE asya_bank.loan;
+
+CREATE TABLE asya_bank.loan (
+	loan_id int4 NOT NULL,
+	loan_type varchar(20) NOT NULL,
+	interest_rate float8 NOT NULL,
+	CONSTRAINT bank_loan_pk PRIMARY KEY (loan_id)
+);
+
+
 -- asya_bank.bank definition
 
 -- Drop table
@@ -17,26 +31,6 @@ CREATE TABLE asya_bank.bank (
 );
 
 
--- asya_bank.bank foreign keys
-
-ALTER TABLE asya_bank.bank ADD CONSTRAINT manager_id_fk FOREIGN KEY (manager_id) REFERENCES asya_bank.employee(employee_id);
-
-
--- asya_bank.bank_loan definition
-
--- Drop table
-
--- DROP TABLE asya_bank.bank_loan;
-
-CREATE TABLE asya_bank.bank_loan (
-	loan_id int4 NOT NULL,
-	loan_type varchar(20) NOT NULL,
-	interest_rate float8 NOT NULL,
-	CONSTRAINT bank_loan_pk PRIMARY KEY (loan_id)
-);
-
-
-
 -- asya_bank.customer definition
 
 -- Drop table
@@ -50,7 +44,7 @@ CREATE TABLE asya_bank.customer (
 	date_of_birth date NOT NULL,
 	gender varchar(10) NOT NULL,
 	marital_status varchar(10) NULL,
-	social_security_number varchar(20) NULL,
+	social_security_number varchar(20) NOT NULL,
 	nationality varchar(40) NULL,
 	phone_number varchar(20) NOT NULL,
 	email varchar(40) NOT NULL,
@@ -67,11 +61,6 @@ CREATE TABLE asya_bank.customer (
 	CONSTRAINT customer_pk PRIMARY KEY (customer_id),
 	CONSTRAINT customer_un UNIQUE (social_security_number, phone_number, email, username, password)
 );
-
-
--- asya_bank.customer foreign keys
-
-ALTER TABLE asya_bank.customer ADD CONSTRAINT customer_id_fk FOREIGN KEY (customer_id) REFERENCES asya_bank.customer_account(customer_id);
 
 
 -- asya_bank.customer_account definition
@@ -93,11 +82,6 @@ CREATE TABLE asya_bank.customer_account (
 );
 
 
--- asya_bank.customer_account foreign keys
-
-ALTER TABLE asya_bank.customer_account ADD CONSTRAINT branch_id_fk FOREIGN KEY (branch_id) REFERENCES asya_bank.bank(branch_id);
-ALTER TABLE asya_bank.customer_account ADD CONSTRAINT employee_id_fk FOREIGN KEY (approving_employee_id) REFERENCES asya_bank.employee(employee_id);
-
 -- asya_bank.customer_loan definition
 
 -- Drop table
@@ -113,17 +97,10 @@ CREATE TABLE asya_bank.customer_loan (
 	loan_amount numeric(10) NOT NULL,
 	duration_year int4 NOT NULL,
 	approving_employee_id int4 NOT NULL,
-	total_payment_amount numeric(8) NULL,
-	monthly_payment_amount numeric(8) NULL,
+	total_payment_amount numeric(10) NULL,
+	monthly_payment_amount numeric(10) NULL,
 	CONSTRAINT customer_loan_pk PRIMARY KEY (loan_application_id)
 );
-
-
--- asya_bank.customer_loan foreign keys
-
-ALTER TABLE asya_bank.customer_loan ADD CONSTRAINT customer_id_fk FOREIGN KEY (customer_id) REFERENCES asya_bank.customer_account(customer_id);
-ALTER TABLE asya_bank.customer_loan ADD CONSTRAINT employee_id_fk FOREIGN KEY (approving_employee_id) REFERENCES asya_bank.employee(employee_id);
-ALTER TABLE asya_bank.customer_loan ADD CONSTRAINT loan_id_fk FOREIGN KEY (loan_id) REFERENCES asya_bank.bank_loan(loan_id);
 
 
 -- asya_bank.customer_transaction definition
@@ -142,10 +119,6 @@ CREATE TABLE asya_bank.customer_transaction (
 	CONSTRAINT customer_transaction_pk PRIMARY KEY (transaction_id)
 );
 
-
--- asya_bank.customer_transaction foreign keys
-
-ALTER TABLE asya_bank.customer_transaction ADD CONSTRAINT customer_id_fk FOREIGN KEY (customer_id) REFERENCES asya_bank.customer_account(customer_id);
 
 -- asya_bank.employee definition
 
@@ -174,7 +147,6 @@ CREATE TABLE asya_bank.employee (
 	username varchar(20) NOT NULL,
 	"password" varchar(20) NOT NULL,
 	account_number varchar(20) NOT NULL,
-	balance numeric(10) NULL,
 	date_of_start date NOT NULL,
 	branch_id int4 NOT NULL,
 	CONSTRAINT employee_pk PRIMARY KEY (employee_id),
@@ -182,8 +154,34 @@ CREATE TABLE asya_bank.employee (
 );
 
 
+-- asya_bank.bank foreign keys
+
+ALTER TABLE asya_bank.bank ADD CONSTRAINT manager_id_fk FOREIGN KEY (manager_id) REFERENCES asya_bank.employee(employee_id);
+
+
+-- asya_bank.customer foreign keys
+
+ALTER TABLE asya_bank.customer ADD CONSTRAINT customer_id_fk FOREIGN KEY (customer_id) REFERENCES asya_bank.customer_account(customer_id);
+
+
+-- asya_bank.customer_account foreign keys
+
+ALTER TABLE asya_bank.customer_account ADD CONSTRAINT branch_id_fk FOREIGN KEY (branch_id) REFERENCES asya_bank.bank(branch_id);
+ALTER TABLE asya_bank.customer_account ADD CONSTRAINT employee_id_fk FOREIGN KEY (approving_employee_id) REFERENCES asya_bank.employee(employee_id);
+
+
+-- asya_bank.customer_loan foreign keys
+
+ALTER TABLE asya_bank.customer_loan ADD CONSTRAINT customer_id_fk FOREIGN KEY (customer_id) REFERENCES asya_bank.customer_account(customer_id);
+ALTER TABLE asya_bank.customer_loan ADD CONSTRAINT employee_id_fk FOREIGN KEY (approving_employee_id) REFERENCES asya_bank.employee(employee_id);
+ALTER TABLE asya_bank.customer_loan ADD CONSTRAINT loan_id_fk FOREIGN KEY (loan_id) REFERENCES asya_bank.loan(loan_id);
+
+
+-- asya_bank.customer_transaction foreign keys
+
+ALTER TABLE asya_bank.customer_transaction ADD CONSTRAINT customer_id_fk FOREIGN KEY (customer_id) REFERENCES asya_bank.customer_account(customer_id);
+
+
 -- asya_bank.employee foreign keys
 
 ALTER TABLE asya_bank.employee ADD CONSTRAINT branch_id_fk FOREIGN KEY (branch_id) REFERENCES asya_bank.bank(branch_id);
-
-
